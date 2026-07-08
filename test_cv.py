@@ -7,7 +7,7 @@ def main():
     print("Operating System:", platform.system())
     print("Machine:", platform.machine())
 
-    camera_id = 0  
+    camera_id = 1 
     cap = cv2.VideoCapture(camera_id)
 
     if not cap.isOpened():
